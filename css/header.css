@@ -1,0 +1,96 @@
+.header-logo {
+    width: 75px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+
+.header-big {
+	height: calc(73vh - 50px);
+	width: 100%;
+	background: linear-gradient(0deg, rgb(50, 95, 141), rgb(149, 182, 216));
+	overflow: hidden;
+	position: relative;
+}
+
+.header-big .header-img {
+	height: calc(73vh - 50px);
+	width: 100%;
+	background: url('../img/mountain.png') center bottom no-repeat;
+}
+
+.header-big .header-text {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 60px;
+	color: white;
+	width: 100%;
+	text-align: center;
+	line-height: 350px;
+	animation-name: fade-in;
+	animation-duration: 2s;
+	text-shadow: 0 0 5px #bbb;
+}
+
+.header-reg {
+	height: calc(40vh - 50px);
+	width: 100%;
+	background: linear-gradient(0deg, rgb(50, 95, 141), rgb(149, 182, 216));
+	overflow: hidden;
+	position: relative;
+}
+
+.header-reg .header-img {
+	height: calc(40vh - 50px);
+	width: 100%;
+	background: url('img/mountain.png') center center no-repeat;
+}
+
+.header-reg .header-text {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 60px;
+	color: white;
+	width: 100%;
+	text-align: center;
+	line-height: 350px;
+	animation-name: fade-in;
+	animation-duration: 2s;
+	text-shadow: 0 0 5px #bbb;
+}
+
+@media screen and (min-width: 720px) {
+    .header-logo {
+        width: 50%;
+        margin-top: 250px;
+        max-width: 280px;
+        position: initial;
+    }
+
+	.header-big .header-text {
+		font-size: 120px;
+		line-height: 300px;
+	}
+
+	.header-reg .header-text {
+		font-size: 120px;
+		line-height: 300px;
+	}
+}
+
+@keyframes fade-in {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.noselect {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently
+	supported by Chrome and Opera */
+}

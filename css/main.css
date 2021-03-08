@@ -1,0 +1,21 @@
+body, html {
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	background: #eee;
+}
+
+.fade-in {
+	animation-name: fade-in;
+	animation-duration: 2s;
+}
+
+@media screen and (max-width: 900px) {
+	.hide-small {
+		display: none !important;
+	}
+}
+
+.inner {
+	text-align: center;
+}

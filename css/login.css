@@ -1,0 +1,45 @@
+.header-login {
+	animation-name: fade-in-login;
+	animation-duration: 3s;
+	opacity: 0.6;
+	margin: auto;
+	width: 350px;
+	position: absolute;
+	bottom: 20px;
+	left: calc(50% - 175px);
+}
+
+.header-login input {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 10px;
+	height: 35px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+.header-login input[type=text], .header-login input[type=password] {
+	background: rgba(255,255,255,0.3);
+}
+
+.header-login input[type=submit] {
+	background-color: rgba(53,67,107,0.6);
+	color: white;
+}
+
+.header-login input::-webkit-input-placeholder, .header-login input::-moz-placeholder, .header-login input:-ms-input-placeholder, .header-login input:-moz-placeholder, .header-login input::placeholder {
+	color: black;
+}
+
+@keyframes fade-in-login {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0.6;
+	}
+}
