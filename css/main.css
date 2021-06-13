@@ -19,3 +19,27 @@ body, html {
 .inner {
 	text-align: center;
 }
+
+.container {
+    margin-bottom: 2em;
+}
+
+.card-text {
+    margin-bottom: 3em;
+}
+
+.card-text-small {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+}
+
+.project-card-image {
+    max-height: 300px;
+    object-fit: contain;
+    border-radius: 5%;
+}
+
+.project-card {
+    height: 100%;
+}

@@ -1,3 +1,9 @@
+* {
+	line-height: 24px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 18px;
+}
+
 .content {
 	padding: 10px 0;
 	width: 100%;
@@ -5,12 +11,9 @@
 
 .content .inner {
 	color: #444;
-	line-height: 24px;
 	width: 80%;
 	max-width: 800px;
 	margin: auto;
-	font-family: 'Dosis', sans-serif;
-	font-size: 18px;
 }
 
 .content h1 {

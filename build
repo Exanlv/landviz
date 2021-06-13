@@ -1,0 +1,4 @@
+#!/bin/sh
+
+php src/index.php > index.html
+php src/projects.php > projects.html
