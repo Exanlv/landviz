@@ -1,8 +1,18 @@
 .header-logo {
-    width: 75px;
-    position: absolute;
-    left: 0;
-    top: 10px;
+    position: initial;
+    max-width: 30%;
+}
+
+.header-small {
+	height: 200px;
+	background: linear-gradient(0deg, rgb(50, 95, 141), rgb(149, 182, 216));
+    text-align: center;
+}
+
+
+.small-header-logo {
+    height: 150px;
+    margin: 25px auto;
 }
 
 .header-big {

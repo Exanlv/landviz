@@ -2,3 +2,4 @@
 
 php src/index.php > index.html
 php src/projects.php > projects.html
+php src/credits.php > credits.html

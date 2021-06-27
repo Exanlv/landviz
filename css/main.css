@@ -43,3 +43,7 @@ body, html {
 .project-card {
     height: 100%;
 }
+
+#credits-table {
+    text-align: left !important;
+}
