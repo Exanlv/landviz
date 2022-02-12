@@ -5,7 +5,6 @@
 
 .header-small {
 	height: 200px;
-	background: linear-gradient(0deg, rgb(50, 95, 141), rgb(149, 182, 216));
     text-align: center;
 }
 
@@ -30,7 +29,6 @@
 }
 
 .header-big .header-text {
-	font-family: 'Quicksand', sans-serif;
 	font-size: 60px;
 	color: white;
 	width: 100%;

@@ -11,7 +11,7 @@ require(__DIR__ . '/projects_helper.php');
     <header id="header" class="header-big">
         <div class="header-img">
             <div class="header-text noselect">
-                <img src="img/logo2.svg" class="header-logo">
+                <img src="img/logo.svg" class="header-logo">
             </div>
         </div>
     </header>

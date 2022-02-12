@@ -1,6 +1,6 @@
 * {
 	line-height: 24px;
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Blogger Sans Light', sans-serif;
 	font-size: 18px;
 }
 
@@ -19,6 +19,8 @@
 .content h1 {
 	text-align: center;
 	font-family: 'Cookie', cursive;
+    font-weight: 800;
+    letter-spacing: 2px;
 	color: #555;
 	font-size: 40px;
 }
